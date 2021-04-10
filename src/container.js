@@ -13,6 +13,11 @@ import ParentComponent from "./useCallback/ParentComponent";
 
 //useRef
 import FocusInput from "./useRef/FocusInput";
+import HookTimer from "./useRef/HookTimer";
+
+//Customhook
+import DocTitleOne from "./customHooks/DocTitleOne";
+import DocTitleTwo from "./customHooks/DocTitleTwo";
 
 //useMemeo
 import CounterUseMemo from "./useMemo/Counter";
@@ -48,6 +53,9 @@ export default function Container() {
 
   return (
     <div>
+      <DocTitleOne />
+      <DocTitleTwo />
+      <HookTimer />
       <ParentComponent />
       {/*<FocusInput /> */}
       <CounterUseMemo />
