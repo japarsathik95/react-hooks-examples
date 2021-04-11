@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 
-export default functionuseDocumentTitle(count) {
+export default function useDocumentTitle(count) {
    useEffect(() => {
     document.title = `count - ${count}`;
-  }, [count]);
+  }, [count])
 }
